@@ -17,7 +17,7 @@ public class Main {
     protected static final Logger logger = LogManager.getLogger(); //we are not instantiating the class static
 
     public static void main(String[] args) {
-        logger.info("** Starting Tennis Counter Assistant");
+        System.out.println("** Starting Tennis Counter Assistant");
         logger.info("**** Reading Command-Line Arguments");
         Options options = new Options();
         options.addOption("p1", true, "Strength of Player 1 in [0,100]");
